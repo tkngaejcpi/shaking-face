@@ -92,7 +92,7 @@ const VocabSearch = () => {
   return (
     <div className="flex flex-col gap-4">
       <input
-        className="rounded-lg border-2 p-2 text-lg font-medium focus:border-amber-200"
+        className="rounded-lg border-2 p-2 text-lg font-medium outline-none transition-all duration-300 ease-in-out focus:border-amber-400"
         placeholder="Search or Add Vocab..."
         value={typing}
         onChange={handleTextChange}
@@ -119,20 +119,20 @@ const VocabSearch = () => {
                 {freq}x
               </span>
               <button
-                className="rounded-full border border-dashed p-1"
+                className="rounded-xl border border-dashed p-1"
                 onClick={genHandleClickAdd(vocab)}
               >
                 ➕
               </button>
               <a
-                className="rounded-full border border-dashed p-1"
+                className="rounded-xl border border-dashed p-1"
                 target="_blank"
                 href={`https://en.wiktionary.org/wiki/${vocab}`}
               >
                 🔎
               </a>
               <button
-                className="rounded-full border border-dashed p-1"
+                className="rounded-xl border border-dashed p-1"
                 onClick={genHandleClickDel(vocab)}
               >
                 🗑️
