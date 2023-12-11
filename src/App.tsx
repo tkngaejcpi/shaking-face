@@ -1,9 +1,10 @@
+import Logo from "@components/Logo";
 import VocabSearch from "@components/VocabSearch";
 
 const App = () => {
   return (
-    <div className="fixed flex h-screen w-screen flex-col gap-4 bg-stone-50 p-4">
-      <div  className="text-center text-[96px] select-none font-['Noto Color Emoji']">🫨</div>
+    <div className="flex min-h-screen w-screen flex-col gap-4 bg-stone-50 p-4">
+      <Logo/>
 
       <VocabSearch />
 
