@@ -3,7 +3,7 @@ import VocabSearch from "@components/VocabSearch";
 
 const App = () => {
   return (
-    <div className="flex min-h-screen w-screen flex-col gap-4 bg-stone-50 p-4">
+    <div className="flex h-[100dvh] w-screen flex-col gap-4 bg-stone-50 p-4">
       <Logo/>
 
       <VocabSearch />
