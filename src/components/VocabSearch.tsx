@@ -94,6 +94,7 @@ const VocabSearch = () => {
       <input
         className="rounded-lg border-2 p-2 text-lg font-medium outline-none transition-all duration-300 ease-in-out focus:border-amber-400"
         placeholder="Search or Add Vocab..."
+        autoCapitalize="none"
         value={typing}
         onChange={handleTextChange}
       />
